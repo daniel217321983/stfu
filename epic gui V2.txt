@@ -1,0 +1,223 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Thing = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local bigpp = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local nazi2s = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local elp0lesdisepic = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local fuck = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local toggle = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(68, 68, 68)
+Frame.Position = UDim2.new(0.155766934, 0, 0.135365784, 0)
+Frame.Size = UDim2.new(0, 578, 0, 349)
+
+Thing.Name = "Thing"
+Thing.Parent = Frame
+Thing.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Thing.BackgroundTransparency = 1.000
+Thing.Position = UDim2.new(-0.0294117667, 0, 0.88252151, 0)
+Thing.Size = UDim2.new(0, 567, 0, 34)
+
+TextLabel.Parent = Thing
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.363315701, 0, -9.05882359, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 34)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "epic gui V2"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 32.000
+
+UICorner.Parent = Thing
+
+UICorner_2.Parent = Frame
+
+bigpp.Name = "bigpp"
+bigpp.Parent = Frame
+bigpp.BackgroundColor3 = Color3.fromRGB(78, 8, 255)
+bigpp.Position = UDim2.new(0.0346020758, 0, 0.174785107, 0)
+bigpp.Size = UDim2.new(0, 200, 0, 50)
+bigpp.Font = Enum.Font.SourceSans
+bigpp.Text = "infinite yield"
+bigpp.TextColor3 = Color3.fromRGB(0, 0, 0)
+bigpp.TextSize = 38.000
+bigpp.TextWrapped = true
+
+UICorner_3.Parent = bigpp
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.856733501, 0)
+TextLabel_2.Size = UDim2.new(0, 578, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Made By Elp0lesd#6404"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_4.Parent = TextLabel_2
+
+nazi2s.Name = "nazi2s"
+nazi2s.Parent = Frame
+nazi2s.BackgroundColor3 = Color3.fromRGB(78, 8, 255)
+nazi2s.Position = UDim2.new(0.0346020758, 0, 0.355300874, 0)
+nazi2s.Size = UDim2.new(0, 200, 0, 50)
+nazi2s.Font = Enum.Font.SourceSans
+nazi2s.Text = "Fe UTG"
+nazi2s.TextColor3 = Color3.fromRGB(0, 0, 0)
+nazi2s.TextSize = 38.000
+nazi2s.TextWrapped = true
+
+UICorner_5.Parent = nazi2s
+
+elp0lesdisepic.Name = "elp0lesd is epic"
+elp0lesdisepic.Parent = Frame
+elp0lesdisepic.BackgroundColor3 = Color3.fromRGB(78, 8, 255)
+elp0lesdisepic.Position = UDim2.new(0.41522491, 0, 0.355300874, 0)
+elp0lesdisepic.Size = UDim2.new(0, 200, 0, 50)
+elp0lesdisepic.Font = Enum.Font.SourceSans
+elp0lesdisepic.Text = "c00lgui"
+elp0lesdisepic.TextColor3 = Color3.fromRGB(0, 0, 0)
+elp0lesdisepic.TextSize = 38.000
+elp0lesdisepic.TextWrapped = true
+
+UICorner_6.Parent = elp0lesdisepic
+
+fuck.Name = "fuck"
+fuck.Parent = Frame
+fuck.BackgroundColor3 = Color3.fromRGB(78, 8, 255)
+fuck.Position = UDim2.new(0.41522491, 0, 0.174785107, 0)
+fuck.Size = UDim2.new(0, 200, 0, 50)
+fuck.Font = Enum.Font.SourceSans
+fuck.Text = "Script Hub"
+fuck.TextColor3 = Color3.fromRGB(0, 0, 0)
+fuck.TextSize = 38.000
+fuck.TextWrapped = true
+
+UICorner_7.Parent = fuck
+
+toggle.Name = "toggle"
+toggle.Parent = ScreenGui
+toggle.BackgroundColor3 = Color3.fromRGB(182, 181, 184)
+toggle.Position = UDim2.new(0, 0, 0, 515)
+toggle.Size = UDim2.new(0, 119, 0, 46)
+toggle.Style = Enum.ButtonStyle.RobloxButton
+toggle.Text = "Open/Close"
+toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
+toggle.TextScaled = true
+toggle.TextSize = 9.000
+toggle.TextWrapped = true
+
+-- Scripts:
+
+local function UOHM_fake_script() -- Frame.Smooth GUI Dragging 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8); -- // The speed of the UI darg.
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(UOHM_fake_script)()
+local function TXYTK_fake_script() -- toggle.Functions () 
+	local script = Instance.new('LocalScript', toggle)
+
+	function onButtonClicked() --if the gui button this is in has been clicked then
+		if script.Parent.Parent.buttons.Visible == false then --script (the script your reading).Parent(this scripts parent,witch is toggle).Parent(toggles Parent, witch is Screen gui).buttons(buttons is a child of Screen gui).Visible(if you click buttons in the explorer, and look at the properties window, youl find a property called Visible) == (you use two equals if your asking if something equals something) false(if its not visible) then (do the following only if the requirement is met, namely visible is off)
+			--the above line checks to see if you can see the gui frame called buttons. frames themselvs are not visible, bet checking wether they are visible or not effects all their children
+			script.Parent.Parent.buttons.Visible = true
+			--the works like the 2nd line,except its only one equal and has no if, so it sets Visible to true
+			return end--this sends it up to the top, so it keeps waiting for the button to be clicked again instead of continuing the script, but it only gets to this if the above if is true.
+		if script.Parent.Parent.buttons.Visible == true then--same as line 2, except it checks if it IS Visible instead of not Visible
+			script.Parent.Parent.buttons.Visible = false --changes it to invisible
+		end--stops checking for the above if statement
+	end--stops checking if its been clicked(the function line at the top)
+	
+	script.Parent.MouseButton1Click:connect(onButtonClicked)
+end
+coroutine.wrap(TXYTK_fake_script)()
+bigpp.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+elp0lesdisepic.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end)
+
+nazi2s.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/badzin/sadsasdsadas/main/codee'))()
+end)
+fuck.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/JunglePush/LostPoint/main/LostPointScript"))()
+end)c
